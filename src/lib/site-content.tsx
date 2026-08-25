@@ -25,7 +25,7 @@ import creditCardDebtAsset from "@/assets/Credit Card Debt .png";
 import heroAsset from "@/assets/hero main .png";
 import howItWorksAsset from "@/assets/how-it-works.png";
 import localTrustAsset from "@/assets/local-trust.png";
-import logoAsset from "@/assets/compass-logo.png";
+import logoAsset from "@/assets/Logo.png";
 import medicalDebtAsset from "@/assets/medical-debt-relief.jpg";
 import privateStudentLoansAsset from "@/assets/private-student-loans.png";
 import unsecuredLoansAsset from "@/assets/Unsecured Loans & Collections.png";
