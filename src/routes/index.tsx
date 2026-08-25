@@ -32,12 +32,12 @@ import {
 export const Route = createFileRoute("/")({
   head: () =>
     buildMeta({
-      title: "Compass Debt Solutions | Debt Relief in Chandler, Arizona",
+      title: "Compass Debt Solutions | Debt Relief & Debt Solutions",
       description:
-        "Compass Debt Solutions helps Arizona clients settle credit card debt, medical bills, collections, business debt, and more with a clear guided process.",
+        "Compass Debt Solutions helps consumers navigate credit card debt, medical bills, collections, personal loans, and other unsecured debt with clear, personalized solutions.",
       path: "/",
       keywords:
-        "Arizona debt relief, Chandler debt relief, credit card debt relief Arizona, medical debt help, business debt settlement",
+        "debt relief, debt solutions, credit card debt relief, medical bills debt help, personal loans relief, collections debt help",
     }),
   component: HomePage,
 });
@@ -94,11 +94,14 @@ function HomePage() {
 
       <section className="section-band border-b border-border/60">
         <div className="page-shell">
-          <div className="section-heading max-w-2xl">
+          <div className="section-heading max-w-3xl">
             <p className="eyebrow">The Compass advantage</p>
             <h2 className="font-display text-3xl font-semibold tracking-normal text-foreground md:text-4xl">
-              A calm, flexible approach built to help you navigate your debt options&nbsp;
+              A Clear, Personalized Approach to Your Debt-Relief Options
             </h2>
+            <p className="text-base leading-relaxed text-muted-foreground">
+              Every financial situation is different. At Compass Debt Solutions, we take the time to understand your situation, answer your questions, and help you explore options that may fit your needs.
+            </p>
           </div>
           <div className="mt-8 hidden md:grid gap-6 md:grid-cols-2 xl:grid-cols-4">
             {aboutAdvantages.map((item) => {

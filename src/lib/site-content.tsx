@@ -18,16 +18,17 @@ import {
   Calendar,
 } from "lucide-react";
 
-import aboutUsAsset from "@/assets/about-us.png";
+import aboutUsAsset from "@/assets/about us.png";
 import businessDebtAsset from "@/assets/business-debt-settlement.jpg";
 import contactHeroAsset from "@/assets/contact-hero.png";
-import creditCardDebtAsset from "@/assets/credit-card-debt-relief.png";
-import heroAsset from "@/assets/hero.png";
+import creditCardDebtAsset from "@/assets/Credit Card Debt .png";
+import heroAsset from "@/assets/hero main .png";
+import howItWorksAsset from "@/assets/how-it-works.png";
 import localTrustAsset from "@/assets/local-trust.png";
 import logoAsset from "@/assets/compass-logo.png";
 import medicalDebtAsset from "@/assets/medical-debt-relief.jpg";
 import privateStudentLoansAsset from "@/assets/private-student-loans.png";
-import unsecuredLoansAsset from "@/assets/unsecured-loans-collections.png";
+import unsecuredLoansAsset from "@/assets/Unsecured Loans & Collections.png";
 import vehicleRepossessionAsset from "@/assets/vehicle-repossession-support.png";
 import ctaBgAsset from "@/assets/cta-bg.png";
 
@@ -99,6 +100,7 @@ export const site = {
 export const assets = {
   logo: logoAsset,
   hero: heroAsset,
+  howItWorks: howItWorksAsset,
   localTrust: localTrustAsset,
   aboutUs: aboutUsAsset,
   contactHero: contactHeroAsset,
@@ -177,9 +179,9 @@ export const condensedSteps: ReadonlyArray<StepItem> = [
       "You make affordable monthly deposits into a dedicated account designed to help fund future settlements.",
   },
   {
-    title: "We Negotiate with Your Creditors",
+    title: "A Dedicated Negotiation Team Works With Your Creditors",
     description:
-      "Our experienced team works to negotiate settlements with your creditors to potentially reduce the amount you owe.",
+      "Once enrolled, a dedicated negotiation team works with your creditors to explore potential solutions for qualifying debts. You'll be kept informed throughout the process.",
   },
   {
     title: "Resolve Your Debts & Celebrate",
@@ -205,9 +207,9 @@ export const fullSteps: ReadonlyArray<StepItem> = [
       "You make affordable monthly deposits into a dedicated account designed to help fund future settlements.",
   },
   {
-    title: "We Negotiate with Your Creditors",
+    title: "A Dedicated Negotiation Team Works With Your Creditors",
     description:
-      "Our experienced team works to negotiate settlements with your creditors to potentially reduce the amount you owe.",
+      "Once enrolled, a dedicated negotiation team works with your creditors to explore potential solutions for qualifying debts. You'll be kept informed throughout the process.",
   },
   {
     title: "Resolve Your Debts",
@@ -297,23 +299,27 @@ export const howItWorksFaqs: ReadonlyArray<FaqItem> = [
 
 export const aboutAdvantages = [
   {
-    title: "Up to 50% Savings",
-    description: "Negotiation strategies that significantly reduce your overall debt.",
-    icon: Percent,
+    title: "Explore Your Options",
+    description:
+      "We'll review your financial situation and help you understand potential solutions for qualifying unsecured debt.",
+    icon: Compass,
   },
   {
-    title: "Zero Prepayment Penalties",
-    description: "Extra payments go directly toward shortening your timeline.",
-    icon: Unlock,
+    title: "Know What to Expect",
+    description:
+      "We'll walk you through how the program works, what to expect throughout the process, and the important terms you should understand before making a decision.",
+    icon: ShieldCheck,
   },
   {
-    title: "Restructuring",
-    description: "Direct creditor negotiation to settle for less than owed.",
+    title: "Dedicated Guidance",
+    description:
+      "If you qualify and choose to enroll, Compass Debt Solutions can connect you with our program provider and negotiation partner, who handles the applicable creditor negotiations and settlement process.",
     icon: Handshake,
   },
   {
-    title: "24-48 Month Timeline",
-    description: "A clear, accelerated path to debt freedom.",
+    title: "A Plan Built Around Your Situation",
+    description:
+      "Your financial situation is unique. We'll help you understand the program, your responsibilities, potential costs, and what the process may look like so you can make an informed decision.",
     icon: Calendar,
   },
 ] as const;

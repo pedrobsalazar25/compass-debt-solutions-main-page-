@@ -112,11 +112,14 @@ function AboutPage() {
 
       <section className="section-band">
         <div className="page-shell">
-          <div className="section-heading max-w-2xl">
+          <div className="section-heading max-w-3xl">
             <p className="eyebrow">The Compass advantage</p>
             <h2 className="font-display text-3xl font-semibold tracking-normal text-foreground md:text-4xl">
-              A calm, flexible approach built to help you navigate your debt options&nbsp;
+              A Clear, Personalized Approach to Your Debt-Relief Options
             </h2>
+            <p className="text-base leading-relaxed text-muted-foreground">
+              Every financial situation is different. At Compass Debt Solutions, we take the time to understand your situation, answer your questions, and help you explore options that may fit your needs.
+            </p>
           </div>
           <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
             {aboutAdvantages.map((item) => {

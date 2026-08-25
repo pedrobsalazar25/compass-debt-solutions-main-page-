@@ -6,7 +6,7 @@ import { PageHero } from "@/components/page-hero";
 import { ScrollRevealCards } from "@/components/scroll-reveal-cards";
 import { Button } from "@/components/ui/button";
 import { buildMeta } from "@/lib/seo";
-import { assets, fullSteps, howItWorksFaqs, site, serviceItems } from "@/lib/site-content";
+import { assets, fullSteps, howItWorksFaqs, site, serviceItems, aboutAdvantages } from "@/lib/site-content";
 import { ServiceCard } from "@/components/service-showcase";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 
@@ -28,8 +28,8 @@ function HowItWorksPage() {
       <PageHero
         title="Your Roadmap to a Brighter Financial Future"
         subtitle="A clear, proven process to help you find your way out of debt."
-        image={assets.contactHero}
-        imageAlt="Compass Debt Solutions office interior"
+        image={assets.howItWorks}
+        imageAlt="How Compass Debt Solutions works"
         eyebrow="How the process works"
         priority
       >
@@ -63,25 +63,33 @@ function HowItWorksPage() {
 
       <section className="bg-white py-16 md:py-24">
         <div className="page-shell">
-          <div className="grid gap-6 md:grid-cols-[0.9fr_1.1fr]">
-            <div className="space-y-3">
-              <p className="eyebrow">The flexibility rule</p>
-              <h2 className="font-display text-3xl font-semibold tracking-normal text-foreground md:text-4xl">
-                Zero prepayment penalties.
-              </h2>
-            </div>
-            <div className="space-y-4 text-base leading-8 text-muted-foreground">
-              <p>
-                Extra payments go directly to reducing interest and accelerating your timeline. That means every additional dollar you contribute helps move you closer to resolution faster.
-              </p>
-              <div className="flex items-center gap-3 rounded-[1.25rem] border border-border/60 bg-accent/60 px-4 py-4 text-foreground">
-                <Compass className="h-5 w-5 text-primary" />
-                <span className="text-sm font-medium">
-                  Flexibility matters when life changes. Your plan should be able to move with you.
-                </span>
-              </div>
-            </div>
+          <div className="section-heading max-w-3xl">
+            <p className="eyebrow">The Compass advantage</p>
+            <h2 className="font-display text-3xl font-semibold tracking-normal text-foreground md:text-4xl">
+              A Clear, Personalized Approach to Your Debt-Relief Options
+            </h2>
+            <p className="text-base leading-relaxed text-muted-foreground">
+              Every financial situation is different. At Compass Debt Solutions, we take the time to understand your situation, answer your questions, and help you explore options that may fit your needs.
+            </p>
           </div>
+
+          <div className="mt-8 hidden md:grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+            {aboutAdvantages.map((item) => {
+              const Icon = item.icon;
+              return (
+                <div key={item.title} className="service-card flex flex-col justify-between p-6">
+                  <div>
+                    <span className="icon-wrap h-12 w-12">
+                      <Icon className="h-6 w-6" />
+                    </span>
+                    <h3 className="mt-5 font-display text-xl font-semibold text-foreground">{item.title}</h3>
+                    <p className="mt-3 text-sm leading-6 text-muted-foreground">{item.description}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          <ScrollRevealCards items={aboutAdvantages} className="mt-8" />
 
           <div className="mt-16 border-t border-border/40 pt-16">
             <div className="section-heading max-w-2xl mb-8">

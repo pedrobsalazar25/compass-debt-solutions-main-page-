@@ -24,8 +24,8 @@ function ContactPage() {
       <PageHero
         title="Let's Talk"
         subtitle="Your free consultation is just a phone call away."
-        image={assets.contactHero}
-        imageAlt="Compass Debt Solutions reception area"
+        image={assets.howItWorks}
+        imageAlt="Compass Debt Solutions contact"
         eyebrow="Contact Compass Debt Solutions"
         priority
       >
