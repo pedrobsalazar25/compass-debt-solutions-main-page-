@@ -1,0 +1,6 @@
+{
+  "name": "Compass Debt Solutions",
+  "description": "Debt relief and financial settlement services web application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
