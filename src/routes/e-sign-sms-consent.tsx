@@ -52,7 +52,7 @@ function ESignSmsConsentPage() {
               </p>
               <p className="text-sm">1542 W. Maplewood St</p>
               <p className="text-sm">Chandler, AZ 85286</p>
-              <p className="text-sm">Phone: (623) 471-9498</p>
+              <p className="text-sm">Phone: (623) 323-3658</p>
             </header>
 
             <Section title="1. Purpose of This Policy">
@@ -92,7 +92,7 @@ function ESignSmsConsentPage() {
                   </a>
                   ; or
                 </li>
-                <li>Calling (623) 471-9498.</li>
+                <li>Calling (623) 323-3658.</li>
               </ul>
               <p>Once you opt out, we may still send legally required notices or confirmations.</p>
             </Section>
@@ -129,7 +129,7 @@ function ESignSmsConsentPage() {
               <p className="font-semibold text-foreground">Compass Debt Solutions LLC</p>
               <p>1542 W. Maplewood St</p>
               <p>Chandler, AZ 85286</p>
-              <p>Phone: (623) 471-9498</p>
+              <p>Phone: (623) 323-3658</p>
               <p>
                 Email:{" "}
                 <a href="mailto:info@compassdebtsolutions.com" className="text-primary hover:underline">
