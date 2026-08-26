@@ -44,8 +44,8 @@ function PrivacyPage() {
                 Chandler, AZ 85286
                 <br />
                 Phone:{" "}
-                <a href="tel:6233233658" className="text-primary hover:underline">
-                  (623) 323-3658
+                <a href="tel:6234719498" className="text-primary hover:underline">
+                  (623) 471-9498
                 </a>
                 <br />
                 Email:{" "}
@@ -131,8 +131,8 @@ function PrivacyPage() {
                 </a>
                 <br />
                 Phone:{" "}
-                <a href="tel:6233233658" className="text-primary hover:underline">
-                  (623) 323-3658
+                <a href="tel:6234719498" className="text-primary hover:underline">
+                  (623) 471-9498
                 </a>
               </p>
             </section>
@@ -163,8 +163,8 @@ function PrivacyPage() {
                 Chandler, AZ 85286
                 <br />
                 Phone:{" "}
-                <a href="tel:6233233658" className="text-primary hover:underline">
-                  (623) 323-3658
+                <a href="tel:6234719498" className="text-primary hover:underline">
+                  (623) 471-9498
                 </a>
                 <br />
                 Email:{" "}

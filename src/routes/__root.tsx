@@ -114,7 +114,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@type": "Organization",
           name: "Compass Debt Solutions",
           url: "https://compassdebtsolutions.com",
-          telephone: "+1-623-323-3658",
+          telephone: "+1-623-471-9498",
           address: {
             "@type": "PostalAddress",
             streetAddress: "1542 W Maplewood St",

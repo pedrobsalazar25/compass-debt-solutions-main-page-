@@ -52,7 +52,7 @@ function MobileMessagingTermsPage() {
               </p>
               <p className="text-sm">1542 W. Maplewood St</p>
               <p className="text-sm">Chandler, AZ 85286</p>
-              <p className="text-sm">Phone: (623) 323-3658</p>
+              <p className="text-sm">Phone: (623) 471-9498</p>
             </header>
 
             <Section title="1. Program Description">
@@ -87,7 +87,7 @@ function MobileMessagingTermsPage() {
 
             <Section title="6. Help">
               <p>
-                For assistance, reply HELP to any text message or contact us at (623) 323-3658 or{" "}
+                For assistance, reply HELP to any text message or contact us at (623) 471-9498 or{" "}
                 <a href="mailto:info@compassdebtsolutions.com" className="text-primary hover:underline">
                   info@compassdebtsolutions.com
                 </a>
@@ -126,7 +126,7 @@ function MobileMessagingTermsPage() {
               <p className="font-semibold text-foreground">Compass Debt Solutions LLC</p>
               <p>1542 W. Maplewood St</p>
               <p>Chandler, AZ 85286</p>
-              <p>Phone: (623) 323-3658</p>
+              <p>Phone: (623) 471-9498</p>
               <p>
                 Email:{" "}
                 <a href="mailto:info@compassdebtsolutions.com" className="text-primary hover:underline">
